@@ -1,0 +1,218 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 60px auto;
+}
+
+.about_company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.about_company_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+    position: relative;
+}
+
+.about_company_title::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    width: 300%;
+    border-bottom: 2px solid #BEBEBE;
+    right: 220px;
+}
+
+.about_company_title::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    width: 274%;
+    border-bottom: 2px solid #BEBEBE;
+    left: 220px;
+}
+
+.about_company_text {
+    text-align: center;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4C4C54;
+}
+
+.our_action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 93px;
+}
+
+.action_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+    position: relative;
+}
+
+.action_title::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    width: 200%;
+    border-bottom: 2px solid #BEBEBE;
+    right: 380px;
+}
+
+.action_title::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    width: 130%;
+    border-bottom: 2px solid #BEBEBE;
+    left: 380px;
+}
+
+.action_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.action_block_item {
+    flex: 0 1 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.action_text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.88px;
+    text-align: center;
+    color: #000000;
+    width: 70%;
+}
+
+.our_story_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    z-index: 1;
+}
+
+.our_story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/Rectangle\ 161.png);
+    padding: 52px 0;
+    position: relative;
+}
+
+.bg_story_black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006c;
+}
+
+.our_story_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.our_story_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.our_story_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.story_item_date {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 6px solid #FFB700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story_item_text {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.our_advatage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.adv_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
+
+.adv_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adv_block_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}

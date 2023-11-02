@@ -1,0 +1,129 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 60px auto;
+}
+
+.production {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.production_picture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.product_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+
+.product_title::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    width: 200%;
+    right: 330px;
+    border-bottom: 2px solid #BEBEBE;
+}
+
+.product_title::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    width: 157%;
+    left: 330px;
+    border-bottom: 2px solid #BEBEBE;
+}
+
+.equipment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.equip_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+
+.equip_title::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    width: 200%;
+    right: 360px;
+    border-bottom: 2px solid #BEBEBE;
+}
+
+.equip_title::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    width: 142%;
+    left: 360px;
+    border-bottom: 2px solid #BEBEBE;
+}
+
+.equip_text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.photo_arrow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.arrow {
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_text {
+    position: absolute;
+    bottom: 15px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}

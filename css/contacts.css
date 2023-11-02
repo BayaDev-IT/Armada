@@ -1,0 +1,57 @@
+.main {
+    margin: 60px 0;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+
+.contacts_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+}
+
+.contacts_title {
+    font-family: 'Gilroy';
+    font-size: 36px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.contact_items {
+    display: flex;
+    gap: 10px;
+}
+
+.contact_part_img {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    width: 24px;
+    height: 24px;
+}
+
+.contact_part {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.contact_items_title {
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 400;
+    color: #A4A4A4;
+} 
+
+.contact_items_text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}

@@ -1,0 +1,684 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css"); 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    height: 100%;
+}
+
+.wrapper_all {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.header_top_block {
+    background-color: #65256F;
+    padding: 11px 0;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+.header_top_block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_right_info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top_left_info {
+    color: #FFB700;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top_right_info {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffff;
+}
+
+.top_right_info a {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FBC70E;
+}
+
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 7px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.header_navigation nav {
+    display: flex;
+    gap: 56px;
+}
+
+.menu__item {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #2A2828;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding: 13px 29px 14px;
+    background-color: #65256F;
+}
+
+.bg_fone {
+    height: 90vh;
+    position: relative;
+}
+
+.city {
+    width: 100%;
+    height: 100%;
+}
+
+.black_fone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fone_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.fone_block_text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    flex: 0 1 50%;
+}
+
+.fone_block_text h1 {
+    font-family: 'Gilroy';
+    font-size: 64px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.fone_block_text p {
+    font-family: 'Gilroy';
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+}
+
+.fone_btn {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #FFC957;
+    color: #000000;
+    max-width: 300px;
+}
+
+.fone_block_app {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.our_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.services_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 53px 45px 41px 39px;
+    border: 1px solid #BEBEBE;
+    box-shadow: 1px 1px #BEBEBE;
+    height: 405px;
+    margin: 10px;
+}
+
+.services_title::before {
+    display: block;
+    width: 200%;
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    right: 295px;
+}
+.services_title::after {
+    display: block;
+    width: 181%;
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    left: 295px;
+}
+
+.services_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+    position: relative;
+}
+
+.services_block_item h6 {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.services_block_item p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    color: #5E5E5E;
+    margin-top: 8px;
+}
+
+.services_block a {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    color: #753ED6;
+    margin-top: 60px;
+}
+
+.our_work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our_work_title {
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+}
+
+.our_work_title::before {
+    content: '';
+    display: block;
+    width: 200%;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    position: absolute;
+    right: 320px;
+}
+.our_work_title::after {
+    content: '';
+    display: block;
+    width: 164%;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    position: absolute;
+    left: 320px;
+}
+
+.block_our_work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.our_w_item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.bg_black {
+    position: absolute;
+    top: 0;
+    left: -17px;
+    height: 100%;
+    width: 110%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.our_w_text {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 21px;
+    left: 20px;
+    width: 70%;
+}
+
+.btn_work {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 368px;
+    height: 52px;
+    border-radius: 3px;
+    background-color: #65256F;
+    margin-top: 30px;
+}
+
+.producion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prod_title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+
+.prod_title::before {
+    display: block;
+    content: '';
+    width: 200%;
+    top: 50%;
+    border-bottom: 2px solid #BEBEBE;
+    position: absolute;
+    right: 330px;
+}
+
+.prod_title::after {
+    display: block;
+    content: '';
+    width: 158%;
+    top: 50%;
+    border-bottom: 2px solid #BEBEBE;
+    position: absolute;
+    left: 330px;
+}
+
+.prod_photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+    margin-top: 26px;
+}
+
+.our_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.price_title {
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    position: relative;
+}
+
+.price_title::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 300%;
+    border-bottom: 2px solid #BEBEBE;
+    right: 265px;
+}
+
+.price_title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 210%;
+    border-bottom: 2px solid #BEBEBE;
+    left: 265px;
+}
+
+.price_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.price_item {
+    flex: 0 1 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.price_item_text {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5858;
+}
+
+.price_som {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 600;
+    color: #4C1F8C;
+}
+
+.btn_price {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 368px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #65256F;
+}
+
+.our_client {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.client_title {
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    position: relative;
+}
+
+.client_title::before {
+    content: '';
+    position: absolute;
+    width: 156%;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    right: 330px;
+}
+
+.client_title::after {
+    content: '';
+    position: absolute;
+    width: 156%;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    left: 330px;
+}
+
+.client_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our_team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.team_title {
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    position: relative;
+}
+
+.team_title::before {
+    content: '';
+    position: absolute;
+    width: 156%;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    right: 350px;
+}
+
+.team_title::after {
+    content: '';
+    position: absolute;
+    width: 145%;
+    border-bottom: 2px solid #BEBEBE;
+    top: 50%;
+    left: 350px;
+}
+
+.team_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.team_bl_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.team_memeber {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+    margin: 24px 0 10px;
+}
+
+.team_position {
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 400;
+    color: #6F6C6C;
+}
+
+.free_application {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    gap: 61px;
+}
+
+.free_app_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.fr_app_title {
+    font-family: 'Gilroy';
+    font-size: 32px;
+    font-weight: 600;
+    color: #343434;
+}
+
+.fr_app_text {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    color: #585858;
+}
+
+.free_app_send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+
+.input_info {
+    width: 315px;
+    height: 47px;
+    border-radius: 3px;
+    background-color: #ECE8E8;
+}
+
+.input_info::placeholder {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    color: #737272;
+    padding: 12px 0 14px 16px;
+    vertical-align: middle;
+}
+
+.free_app_btn {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 226px;
+    height: 47px;
+    border-radius: 3px;
+    background-color: #65256F;
+}
+
+.footer_main {
+    width: 100%;
+    background-color: #3A3A3A;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    gap: 150px;
+    height: 324px;
+}
+
+.footer_item_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 25%;
+    gap: 8px;
+}
+
+.footer_title {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.footer_text {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 600;
+    color: #BCBBBB;
+}
+
+.footer_text_net {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: 600;
+    color: #BCBBBB;
+}
+
+.footer_item_second {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    flex: 0 1 30%;
+}
+
+.footer_spec_text {
+    line-height: 21px;
+}
